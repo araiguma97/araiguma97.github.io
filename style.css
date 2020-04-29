@@ -1,4 +1,6 @@
-body {
+@charset "utf-8";
+
+* {
 	color: #333333;
 }
 
@@ -34,4 +36,10 @@ div.thumb {
 
 div.thumb img {
 	height: 300px;
+}
+
+@media (max-width:480px) {
+	section {
+		width: 100%;
+	}
 }
